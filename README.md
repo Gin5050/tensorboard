@@ -4,7 +4,7 @@ learning tensorboard
 ## memo
 
 ```
-docker run --runtime=nvidia -it -v /home/yuki/work/tensorboard:/workspace/work -p 8080:8080 -p 6006:6006 tensorboardx
+docker run --runtime=nvidia -it -v /home/yuki/work/tensorboard:/workspace/work -p 8888:8888 -p 6006:6006 tensorboardx
 ```
 
 ```
